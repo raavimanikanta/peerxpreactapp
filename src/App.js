@@ -15,6 +15,7 @@ const App=()=>{
       <NavBar/>
     
       <Routes>
+       <Route path="/" element={<TopDetails/>} />
         <Route path="/Dashboard" element={<TopDetails/>} />
         <Route path="/Posts" element={<FeaturedImage/>}/>
         <Route path="/links" element={<LinksPage/>}/>
